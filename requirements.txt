@@ -1,0 +1,33 @@
+# Missing Step Detection System - Requirements
+# =============================================
+# Install with: pip install -r requirements.txt
+
+# Core Dependencies
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Deep Learning
+torch>=1.10.0
+transformers>=4.20.0
+
+# NLP
+spacy>=3.4.0
+sentence-transformers>=2.2.0
+
+# Data Processing
+datasets>=2.0.0  # For WikiHow dataset from HuggingFace
+
+# Visualization (optional)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.62.0
+
+# Development (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+
+# Note: After installing, download spaCy model:
+# python -m spacy download en_core_web_sm

@@ -1,0 +1,37 @@
+# Claude
+.claude/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Model files (large)
+models/*.pt
+models/*.bin
+models/*.pkl
+
+# Outputs
+outputs/
+
+# Data (large datasets)
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
